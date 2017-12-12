@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/batch_order_charge_blue_nomal"
+        android:centerColor="@color/batch_order_charge_blue_nomal"
+        android:endColor="@color/batch_order_charge_blue_nomal"
+        android:angle="270"
+        ></gradient>
+</shape>

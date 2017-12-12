@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6f6">
+    <LinearLayout
+        android:background="@color/DeepSkyBlue"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/b_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ab_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/DeepSkyBlue"
+            android:textSize="18dp"
+            android:text="注册"
+            android:gravity="center"
+            android:id="@+id/toobar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_marginRight="40px"
+        android:layout_marginLeft="40px"
+        android:background="@drawable/border"
+        android:layout_marginTop="350px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="30px"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:id="@+id/et_name"
+            android:drawablePadding="20px"
+            android:hint="请输入您的账户"
+            android:layout_marginLeft="35px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_marginLeft="27px"
+            android:layout_marginRight="27px"
+            android:background="@color/Cornsilk"
+            android:layout_width="match_parent"
+            android:layout_height="1px" />
+        <EditText
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="30px"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:id="@+id/et_mm"
+            android:drawablePadding="20px"
+            android:hint="请输入您的密码"
+            android:layout_marginLeft="35px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:layout_marginRight="40px"
+        android:layout_marginLeft="40px"
+        android:background="@color/DeepSkyBlue"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="120px" />
+
+</RelativeLayout>
